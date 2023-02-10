@@ -1,0 +1,1 @@
+python scripts/nvprof2json.py $1

@@ -1,0 +1,11 @@
+# cd build dir
+if [ ! -d build ]; then
+    mkdir build
+fi
+cd build
+
+# compile
+cmake ..
+make
+
+cd ..
