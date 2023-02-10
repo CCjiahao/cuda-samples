@@ -1,0 +1,2 @@
+add_executable(asyncAPI asyncAPI.cu)
+set_target_properties(asyncAPI PROPERTIES CUDA_SEPARABLE_COMPILATION ON)

@@ -10,3 +10,5 @@ endif()
 
 include_directories(/usr/local/cuda/include)
 include_directories(./common/include)
+
+add_subdirectory(0_Introduction)
