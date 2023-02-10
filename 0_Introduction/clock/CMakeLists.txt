@@ -1,0 +1,2 @@
+add_executable(clock clock.cu)
+set_target_properties(clock PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
