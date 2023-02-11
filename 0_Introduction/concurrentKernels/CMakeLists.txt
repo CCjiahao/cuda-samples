@@ -1,0 +1,2 @@
+add_executable(concurrentKernels concurrentKernels.cu)
+set_target_properties(concurrentKernels PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
